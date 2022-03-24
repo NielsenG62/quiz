@@ -21,7 +21,8 @@ $(document).ready(function () {
       if (age < 40) {
         if (
           velocity.toLowerCase().includes("type") ||
-          velocity.toLowerCase().includes("kind")
+          velocity.toLowerCase().includes("kind") ||
+          velocity.toLowerCase().includes("african")
         ) {
           if (trolley === "1") {
             answer = "Giga Chad";
@@ -42,7 +43,8 @@ $(document).ready(function () {
       } else {
         if (
           velocity.toLowerCase().includes("type") ||
-          velocity.toLowerCase().includes("kind")
+          velocity.toLowerCase().includes("kind") ||
+          velocity.toLowerCase().includes("african")
         ) {
           if (trolley === "1") {
             answer = "This Woman";
